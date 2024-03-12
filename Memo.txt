@@ -1,0 +1,25 @@
+npm install express --save
+
+npx playwright install
+npm install playwright --save
+
+
+
+Package Manager = 프로젝트에 필요한 패키지(라이브러리, 모듈 등)를 관리하고 설치하는 도구(Node.js의 npm, Python의 pip)
+
+
+* package.json 역할 
+  -  다른 사용자가 쉽게 관리하고 설치할 수 있도록 할 수 있습니다.
+  -  프로젝트가 의존하는 패키지 목록을 나열
+  
+* package-lock.json 역할 
+  - 각 패키지의 정확한 버전과 의존성을 고정시켜주는 역할
+
+var 변수는 재선언되고, 업데이트될 수 있습니다.
+
+let으로 선언된 변수는 해당 블록 내에서만 사용가능
+let은 업데이트될 수 있지만, 재선언은 불가능하다.
+
+const로 선언된 변수는 일정한 상수 값을 유지
+const 선언도 선언된 블록 범위 내에서만 접근 가능
+const는 업데이트도, 재선언도 불가능하다
